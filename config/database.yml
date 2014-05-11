@@ -1,0 +1,4 @@
+adapter: 'sqlite3'
+database: 'alingnena.db'
+pool: 5
+timeout: 5000
