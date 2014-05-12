@@ -10,7 +10,7 @@ class MoneyCalculator
 	@five_hundreds = five_hundreds.to_i*500
 	@thousands = thousands.to_i*1000
 	@total = @ones + @fives + @tens + @twenties + @fifties + @hundreds + @five_hundreds + @thousands
-	@hash = {'ones'=> 0, 'fives'=>0, 'tens'=>0, 'twenties'=>0, 'fifties'=>0, 'hundreds'=>0, 'five_hundreds'=>0, 'thousands'=>0}
+	@hash = {'ones'=> 0, 'fives'=>0, 'tens'=>0, 'twenties'=>0, 'fifties'=>0, 'hundreds'=>0, 'five hundreds'=>0, 'thousands'=>0}
     # each parameter represents the quantity per denomination of money
     # these parameters can be assigned to instance variables and used for computation
 
